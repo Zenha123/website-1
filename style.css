@@ -41,6 +41,7 @@ nav ul li a{
     color:white;
     font-weight: 700;
     border:none;
+    cursor: pointer;
 }
 .button1 {
     margin-left:100px;
@@ -82,6 +83,7 @@ nav ul li a{
     background-color: #7ddcdc;
     color: #fff;
     font-weight: 700;
+    cursor: pointer;
 }
 .btn2{
     border-radius: 100px;
@@ -90,9 +92,10 @@ nav ul li a{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #fff;
-   border-width: 1px;
+   border-width: 1px ;
    color:#7ddcdc;
    font-weight: 700;
+   cursor: pointer;
 
 }
 .c1 p{
@@ -211,6 +214,7 @@ nav ul li a{
     border:none;
     background-color: #7ddcdc;
     color:#fff;
+    cursor: pointer;
 }
 .b2{
     border-radius: 100px;
@@ -223,6 +227,7 @@ nav ul li a{
     color:#7ddcdc;
     background-color: #fff;
     font-weight: 600;
+    cursor: pointer;
 }
 .b3{
     
@@ -236,6 +241,7 @@ nav ul li a{
     border:1px solid;
     color:#7ddcdc;
     background-color: #fff;
+    cursor: pointer;
 }
 .skills{
     margin-top:20px;
@@ -484,6 +490,7 @@ nav ul li a{
     background-color: #7ddcdc;
     color:#fff;
     font-weight: 600;
+    cursor: pointer;
 }
 .but2{
     border-radius: 100px;
@@ -495,6 +502,7 @@ nav ul li a{
     color:#7ddcdc;
     background-color: #fff;
     font-weight: 600;
+    cursor: pointer;
 }
 .but3{
     border-radius: 100px;
@@ -506,6 +514,7 @@ nav ul li a{
     background-color: #fff;
     color:#7ddcdc;
     font-weight: 600;
+    cursor: pointer;
 }
 .but4{
     border-radius: 100px;
@@ -517,6 +526,7 @@ nav ul li a{
     color:#7ddcdc;
     background-color: #fff;
     font-weight: 600;
+    cursor: pointer;
 }
 .test{
     display:flex;
@@ -739,6 +749,8 @@ input[type="text"], input[type="email"]{
 }
 .label{
     margin-left: 210px;
+    color:white;
+
 }
 .last h3{
     color:white;
