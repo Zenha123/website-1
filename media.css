@@ -1,0 +1,470 @@
+@media (max-width:600px)
+{
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .button2 {
+        margin: 10px 0;
+      }
+      .button1 {
+      
+        margin-top:100px;
+        justify-content: flex-start;
+        padding-right: 50px;
+    }
+    
+    .a{
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+        margin-left: 300px;
+        text-align: left;
+     }
+     .img2{
+        margin-left:130px;
+     }
+     
+    .c1{
+        align-items: center;
+    }
+
+    .new{
+        flex-direction: column;
+        align-items: center;
+       gap:1px;
+       display: flex;
+       padding-right:50px;
+       margin-left:100px;
+    }
+    
+    .container2{
+        flex-direction: column;
+        align-items: center;
+        margin-left:150px;
+       
+    }
+    .img{
+      padding-right:100px;
+        width:250%;
+        height:auto;
+        border-radius:50%;
+        margin-right:100%;
+      
+    }
+    .h2{
+        text-align: center;
+     padding-top:10px;
+    }
+    
+    .service{
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+         margin-left: 150px;
+            text-align: center; 
+    }
+    .about me{
+        padding-bottom: 10px;
+    }
+    .cat{
+        flex-direction: column;
+        align-items: center;
+        margin-left:150px;
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+      }
+      .icon1{
+        margin-left:8px;
+    }
+    .blue{
+       flex-direction: column;
+       justify-content: center;
+      margin-left: 150px;
+       
+        
+    }
+    .mainbox{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+   
+    .whitebox1, .whitebox2, .whitebox3, .whitebox4 {
+        margin: 20px 0;
+        width: 80%;
+        padding-right:10px;
+        text-align: center;
+        padding-left: 10px;
+        margin-left:30px;
+      }
+     .main1 h1,h3{
+        padding-left:150px;
+     }
+    .all{
+        flex-direction: column;
+        margin-right:100px;
+        
+        
+    }
+    .picbox1, .picbox2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .picbox1 img, .picbox2 img {
+       
+        margin-bottom: 15px;
+    }
+    .o1{
+        width:300px;
+        height:200px;
+        padding-right:100px;
+       
+    }
+    .o2{
+        width:300px;
+        height:200px;
+        padding-right:100px;
+       
+    }
+    .o3{
+        width:300px;
+        height:200px;
+        padding-right:100px;
+       
+    }
+    .o4{
+        width:300px;
+        height:200px;
+        padding-right:100px;
+        padding-top:500px;
+       
+       
+    }
+    .o5{
+        width:300px;
+        height:200px;
+        padding-right:100px;
+       
+    }
+    .o6{
+        width:300px;
+        height:200px;
+        padding-right:100px;
+       
+    }
+
+    .testimonals {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .try {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .cry {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .cir {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .circle-outline,
+    .circle-filled {
+        font-size: 24px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    /* Flexbox for Testimonials */
+    .test {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left:100px;
+        margin-top:200px;
+        gap: 20px; /* Adds some spacing between testimonial cards */
+    }
+    
+    .test > div {
+        flex: 1 1 250px; /* Makes each testimonial card responsive */
+        max-width: 300px;
+    }
+    .test1{
+        margin-top:700px;
+    }
+
+
+
+
+
+
+    .last {
+        background-color: #7ddcdc;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    /* Flex container for contact info and form */
+    .mew {
+        display: flex;
+        flex-wrap: wrap; /* Allow flex items to wrap */
+        justify-content: space-between;
+        gap: 20px; /* Space between flex items */
+    }
+    
+    /* Contact information section */
+    .white.main {
+        display: flex;
+        background-color: #7ddcdc;
+        flex: 1;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    
+    .white {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+        margin: auto;
+        flex: 1;
+    }
+    
+    /* Text inside contact info */
+    .white p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    /* Form container */
+    .form {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-left:150px;
+        align-items: center;
+    }
+    
+    /* Input fields styling */
+    input[type="text"], input[type="email"] {
+       
+        
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #333;
+      justify-content: center;
+       
+       
+    }
+    
+    /* Textarea styling */
+    .text1 {
+        resize: none;
+        
+       
+       
+        padding-left:100px;
+         /* Set height to adjust the textarea size */
+      
+    }
+    .text2{
+
+    }
+    /* Submit section */
+    .submit-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        flex-direction: column; /* Center align items on mobile */
+    }
+    
+    .submit-section input[type="checkbox"] {
+        margin-right: 5px;
+    }
+    
+    /* Link styling */
+    .submit-section a {
+        color: #fff;
+        text-decoration: underline;
+    }
+    
+    /* Button styling */
+    .buttonz {
+        background-color: #02bdbd;
+        color: #fff;
+        border: none;
+        border-radius: 100px;
+        font-size: 14px;
+        cursor: pointer;
+       align-items: center;
+        margin-top: 10px;
+        margin-left:450px ;
+        padding-left: 50px;
+        padding-right: 50px;
+       
+    }
+    
+    .buttonz:hover {
+        background-color: #6c7171;
+    }
+    
+    .label {
+        color: white;
+        margin-top: 10px;
+        
+        padding-right:180px;
+    }
+    
+    .last h3 {
+        color: white;
+        font-size: 18px;
+       padding-right:150px;
+    }
+    
+    .last h1 {
+        color: #fff;
+        font-size: 24px;
+    }
+    .mew {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align on smaller screens */
+    }
+
+    .white.main, .form {
+        width: 90%; /* Full width on mobile with some margin */
+        margin: 0 auto 20px auto; /* Center align with margin */
+    }
+
+    .last h3 {
+        font-size: 16px; /* Adjust heading size for mobile */
+    }
+
+    .last h1 {
+        font-size: 22px; /* Adjust sub-heading size for mobile */
+    }
+
+    .submit-section {
+        text-align: center; /* Center-align text on mobile */
+    }
+
+
+
+
+
+
+
+    .footer {
+        display: flex;
+        background-color: #7ddcdc;
+        margin-left: 105px;
+        
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+           
+    }
+    
+    .footer p {
+        font-size: small;
+        margin: 10px 0;
+    }
+    
+    .f1 {
+        padding-top: 20px;
+        color: #fff;
+        flex-basis: 100%;
+        text-align: center;
+            padding-top: 10px;
+    }
+    
+    .f2 {
+        padding-top: 20px;
+        color: #ccc;
+        flex-basis: 100%;
+        text-align: center;
+            padding-top: 10px;
+    }
+    
+    .iconn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        padding: 10px 0;
+        flex-basis: 100%;
+        flex-direction: row;
+            gap: 10px;
+    }
+    
+    .f3 {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    
+    .i0, .i2, .i3 {
+        background-color: #02bdbd;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+        margin: 0 5px;
+    }
+    
+    /* Media query for small screens */
+   
+        
+    
+        
+    
+        
+    }
+   
+
+   
+       
+  
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
