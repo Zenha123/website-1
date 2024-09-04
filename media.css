@@ -1,4 +1,4 @@
-@media (max-width:600px)
+@media (max-width:575px)
 {
     .header{
         flex-direction: column;
@@ -373,16 +373,7 @@
 
 
     .footer {
-        display: flex;
-        background-color: #7ddcdc;
-        margin-left: 105px;
-        
-        
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
+        display:none;
            
     }
     
@@ -439,9 +430,16 @@
     
     /* Media query for small screens */
    
-        
+        .try{
+            display: none;
+        }
     
-        
+        .cry{
+            display: none;
+        }
+        .header{
+            display:none;
+        }
     
         
     }
