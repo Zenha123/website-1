@@ -16,42 +16,38 @@
     }
     
     .a{
+        display: flex;
         flex-direction: column;
         align-items: center;
         gap:10px;
-        margin-left: 300px;
-        text-align: left;
+        margin-left: 450px;
+        
+        
      }
      .img2{
-        margin-left:130px;
+        margin-left: 100px;
      }
      
-    .c1{
-        align-items: center;
-    }
-
+    
     .new{
         flex-direction: column;
         align-items: center;
        gap:1px;
        display: flex;
        padding-right:50px;
-       margin-left:100px;
+       margin-left:250px;
     }
     
-    .container2{
+    /*.container2{
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-left:150px;
+        margin-left:230px;
+        
        
-    }
+    }*/
     .img{
-      padding-right:100px;
-        width:250%;
-        height:auto;
         border-radius:50%;
-        margin-right:100%;
-      
+        width:800px;
     }
     .h2{
         text-align: center;
@@ -67,6 +63,10 @@
     }
     .about me{
         padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+       margin-left:550px;
+        
     }
     .cat{
         flex-direction: column;
