@@ -320,7 +320,8 @@
         margin-left:450px ;
         padding-left: 50px;
         padding-right: 50px;
-       
+       padding-bottom:50px;
+       padding-top:20px;
     }
     
     .buttonz:hover {
