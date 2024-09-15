@@ -14,6 +14,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding-left:150px;
      }
      
      .c1{
@@ -25,6 +26,13 @@
        
 
      }
+     .c1 h2 {
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .c1 h1 {
+        font-size: 60px;
+    }
      .button3{
         display: flex;
         flex-direction: column;
