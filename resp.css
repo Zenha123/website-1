@@ -428,8 +428,41 @@
     margin-left:0;
     margin-right:0;
 }
+.label{
+    margin:0;
+}
 .footer{
-    display: none;
+   display:flex;
+   flex-direction: column;
+   padding-top:0;
+}
+.f1 {
+padding-top: 0; 
+   
+}
+.f2 {
+    padding-top:0;
+   
+}
+.iconn {
+     padding-top:0;
+     padding-left:0;
+    display: flex;
+    display: contents;
+    align-items: end;
+    display: inline-flex;
+    gap: 10px;
+}
+.f1 h1{
+    padding-left:125px;
+}
+.footer p {
+    font-size: small;
+     padding-top:0;
+    padding-left: 100px;
+}
+.f3{
+   
 }
 }
 
